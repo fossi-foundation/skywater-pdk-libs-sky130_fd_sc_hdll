@@ -39,9 +39,9 @@ module sky130_fd_sc_hdll__inputiso1p_1 (
 );
 
     // Module ports
-    output X    ;
-    input  A    ;
-    input  SLEEP;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
 
     // Module supplies
     supply1 VPWR;

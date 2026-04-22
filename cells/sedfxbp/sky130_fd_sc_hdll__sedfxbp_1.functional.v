@@ -46,13 +46,13 @@ module sky130_fd_sc_hdll__sedfxbp_1 (
 );
 
     // Module ports
-    output Q  ;
-    output Q_N;
-    input  CLK;
-    input  D  ;
-    input  DE ;
-    input  SCD;
-    input  SCE;
+    output wire Q  ;
+    output wire Q_N;
+    input  wire CLK;
+    input  wire D  ;
+    input  wire DE ;
+    input  wire SCD;
+    input  wire SCE;
 
     // Local signals
     wire buf_Q  ;

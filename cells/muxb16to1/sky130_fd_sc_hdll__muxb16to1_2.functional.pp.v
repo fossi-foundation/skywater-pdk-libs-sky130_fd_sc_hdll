@@ -44,13 +44,13 @@ module sky130_fd_sc_hdll__muxb16to1_2 (
 );
 
     // Module ports
-    output        Z   ;
-    input  [15:0] D   ;
-    input  [15:0] S   ;
-    input         VPWR;
-    input         VGND;
-    input         VPB ;
-    input         VNB ;
+    output wire        Z   ;
+    input  wire [15:0] D   ;
+    input  wire [15:0] S   ;
+    input  wire        VPWR;
+    input  wire        VGND;
+    input  wire        VPB ;
+    input  wire        VNB ;
 
     // Local signals
     wire pwrgood_pp0_out_d0  ;
