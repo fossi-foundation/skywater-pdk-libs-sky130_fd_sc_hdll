@@ -37,9 +37,9 @@ module sky130_fd_sc_hdll__muxb16to1_4 (
 );
 
     // Module ports
-    output        Z;
-    input  [15:0] D;
-    input  [15:0] S;
+    output wire        Z;
+    input  wire [15:0] D;
+    input  wire [15:0] S;
 
     //     Name      Output  Other arguments
     bufif1 bufif10  (Z     , !D[0], S[0]    );

@@ -35,7 +35,7 @@ module sky130_fd_sc_hdll__diode_4 (
 );
 
     // Module ports
-    input DIODE;
+    input wire DIODE;
      // No contents.
 endmodule
 `endcelldefine

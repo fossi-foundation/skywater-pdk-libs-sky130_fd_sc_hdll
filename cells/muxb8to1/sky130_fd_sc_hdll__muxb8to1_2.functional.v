@@ -37,9 +37,9 @@ module sky130_fd_sc_hdll__muxb8to1_2 (
 );
 
     // Module ports
-    output       Z;
-    input  [7:0] D;
-    input  [7:0] S;
+    output wire       Z;
+    input  wire [7:0] D;
+    input  wire [7:0] S;
 
     //     Name     Output  Other arguments
     bufif1 bufif10 (Z     , !D[0], S[0]    );

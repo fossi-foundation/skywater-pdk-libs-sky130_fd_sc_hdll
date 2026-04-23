@@ -40,10 +40,10 @@ module sky130_fd_sc_hdll__xor3_2 (
 );
 
     // Module ports
-    output X;
-    input  A;
-    input  B;
-    input  C;
+    output wire X;
+    input  wire A;
+    input  wire B;
+    input  wire C;
 
     // Local signals
     wire xor0_out_X;
