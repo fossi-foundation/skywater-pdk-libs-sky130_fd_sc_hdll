@@ -37,9 +37,9 @@ module sky130_fd_sc_hdll__muxb8to1_2 (
     S
 );
 
-    output       Z;
-    input  [7:0] D;
-    input  [7:0] S;
+    output wire       Z;
+    input  wire [7:0] D;
+    input  wire [7:0] S;
 
     // Voltage supply signals
     supply1 VPWR;
