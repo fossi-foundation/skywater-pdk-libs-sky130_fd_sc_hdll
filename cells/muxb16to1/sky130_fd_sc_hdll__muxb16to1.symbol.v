@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_hdll__muxb16to1 (
     //# {{data|Data Signals}}
-    input  [15:0] D,
-    output        Z,
+    input  wire [15:0] D,
+    output wire        Z,
 
     //# {{control|Control Signals}}
-    input  [15:0] S
+    input  wire [15:0] S
 );
 
     // Voltage supply signals

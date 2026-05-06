@@ -34,17 +34,17 @@
 (* blackbox *)
 module sky130_fd_sc_hdll__muxb8to1 (
     //# {{data|Data Signals}}
-    input  [7:0] D   ,
-    output       Z   ,
+    input  wire [7:0] D   ,
+    output wire       Z   ,
 
     //# {{control|Control Signals}}
-    input  [7:0] S   ,
+    input  wire [7:0] S   ,
 
     //# {{power|Power}}
-    input        VPB ,
-    input        VPWR,
-    input        VGND,
-    input        VNB
+    input  wire       VPB ,
+    input  wire       VPWR,
+    input  wire       VGND,
+    input  wire       VNB
 );
 endmodule
 

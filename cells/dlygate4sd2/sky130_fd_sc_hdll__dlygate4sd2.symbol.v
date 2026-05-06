@@ -34,8 +34,8 @@
 (* blackbox *)
 module sky130_fd_sc_hdll__dlygate4sd2 (
     //# {{data|Data Signals}}
-    input  A,
-    output X
+    input  wire A,
+    output wire X
 );
 
     // Voltage supply signals
